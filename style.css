@@ -1,12 +1,16 @@
 body {
-  width: 100%;
   height: 100%;
   background-color: #e8efef;
   margin: 0;
-}
+  max-width: 100%
+  }
 
 * {
   margin: 0;
+}
+
+div {
+  box-sizing: border-box;
 }
 
 .header .navbar {
@@ -21,10 +25,23 @@ body {
 .imagen {
   border: 4px double #95c5c1;
   border-radius: 50%;
+  width: 90%;
+  
 }
 
 .solange {
   width: 200px;
+}
+
+.inicial {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+
+.cuadrado p {
+  font-size: 25px;
 }
 
 .cuadrado {
@@ -35,11 +52,15 @@ body {
   font-family: "Cedarville Cursive", cursive;
   color: #88b4b5;
   background-color: #ffeee394;
-  padding-left: 150px;
-  padding-bottom: 70px;
-  padding-top: 70px;
+  padding-left: 50px;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  height: 100%;
   width: 100%;
+  
+  
 }
+
 
 .cuadrado2 {
   margin: 0%;
@@ -50,6 +71,7 @@ body {
   font-size: 20px;
   padding-top: 70px;
   padding-left: 25px;
+  padding-bottom: 70px;
 }
 
 .cuadrado3 {
@@ -58,16 +80,15 @@ body {
   background-color: #e8efef;
   color: #89b5b6;
   margin: 0%;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .cuadrado4 {
   font-family: Georgia, "Times New Roman", Times, serif;
-  padding-top: 30px;
   color: #e29578;
   margin: 0%;
-  padding-left: 25px;
-  padding-bottom: 40px;
-}
+    }
 
 .img3,
 .img2,
@@ -105,10 +126,15 @@ footer {
   background-image: url(./fondofloresclaro.jpg);
   background-repeat: repeat;
   border-top: 15px double rgba(135, 192, 187, 0.884);
-  height: 250px;
-  width: 100%;
+    width: 100vw;
   font-family: Georgia, "Times New Roman", Times, serif;
-  padding-bottom: 100px;
+  color: #e29578;
+  margin: 0%;
+  padding-left: 30px;
+ padding-bottom: 50px;
+ padding-top: 30px;
+  
+  
 }
 
 .columna1 {
@@ -116,7 +142,12 @@ footer {
   width: 60vh;
 }
 
-.columna2,
-.columna3 {
+.columna2 {
   text-align: center;
+}
+
+.columna3 {
+  display: flex;
+ justify-content: center;
+ align-items: center;
 }
